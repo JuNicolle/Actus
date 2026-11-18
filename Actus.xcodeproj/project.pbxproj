@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D022DC58D8D0E67C97BB29 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A179930CFA8A60BA98E66 /* ArticleListView.swift */; };
+		1F32D8FFE19893A6FF2D3D08 /* ArticleHeroCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D61105292D89028F4251BA /* ArticleHeroCard.swift */; };
+		28E50D78903E4E628E54BEDF /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A71DFB3BDB3C658A083507E /* String+HTML.swift */; };
+		2C5F50D7874DEE78D2ACD80D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807D1DD7723D51185DA803C /* SettingsView.swift */; };
+		2D68A0321F0F1166637C081B /* FeedSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3F922C68BB3BB3BA12EFF1 /* FeedSource.swift */; };
+		3EABD2714971FD99D9401C09 /* DofusShortcutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF482A21F1A257B27911 /* DofusShortcutRow.swift */; };
+		42C84F57843F06EB82297894 /* ArticleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DD8D540D89E7DB8E412 /* ArticleWebView.swift */; };
+		4ABCB08DA8833382390DBDB8 /* CategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBA158B00EE1DDC85DE974 /* CategoryPicker.swift */; };
+		4F0143782A2B9630E2478427 /* ActusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E3E6A18D9183BBEF61244 /* ActusApp.swift */; };
+		61E0EC501F7C246275306B9A /* FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE2A31326D6B78A4E0E4F8 /* FeedService.swift */; };
+		6619B69B43660C4F93BD94F5 /* DigestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D036DC29543480802F1919 /* DigestView.swift */; };
+		75BFD5B1B2CFED6ABBEF0E61 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7CFFAF7CB5384C2CE25252 /* ArticleDetailView.swift */; };
+		77E69C9C39EEFA584AC3C1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC91BB5141CBFA8353B54724 /* Assets.xcassets */; };
+		7914189762B1582B5ED05DEA /* Summarizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAB9797542BECD914E50E /* Summarizer.swift */; };
+		837E9B8A298227A716A56120 /* NewsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075099D1D16E0C22BFB03ECD /* NewsCategory.swift */; };
+		8C3E484074B7012292617477 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29DAF13A70C826244A3394D /* ContentView.swift */; };
+		BF724F87286AA4EC1F119459 /* AddSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DD1144919517608B35272A /* AddSourceView.swift */; };
+		C1D6457869C4FE01011F6981 /* NewsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8A8CD4DE8898D957BEBA40 /* NewsStore.swift */; };
+		CD465750EB25C860277F30D1 /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EAE79983EAC5DF769C6EF2 /* ArticleRow.swift */; };
+		D5384E7354ECCBF0DFDD5B08 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1539C18D1CD7A87DC8357A9D /* Article.swift */; };
+		D5CDE8C622EF5E15F081D536 /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D7252F416BE9B85446A290 /* FeedParser.swift */; };
+		E33E751F8F1EE50975679301 /* SourceTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC70B68C2E8EC3E4DE0A4A /* SourceTag.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		075099D1D16E0C22BFB03ECD /* NewsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCategory.swift; sourceTree = "<group>"; };
+		09D61105292D89028F4251BA /* ArticleHeroCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleHeroCard.swift; sourceTree = "<group>"; };
+		1539C18D1CD7A87DC8357A9D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		25B4BF482A21F1A257B27911 /* DofusShortcutRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DofusShortcutRow.swift; sourceTree = "<group>"; };
+		2807D1DD7723D51185DA803C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2A8A8CD4DE8898D957BEBA40 /* NewsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStore.swift; sourceTree = "<group>"; };
+		40D036DC29543480802F1919 /* DigestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigestView.swift; sourceTree = "<group>"; };
+		5C5A179930CFA8A60BA98E66 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		7F5E3E6A18D9183BBEF61244 /* ActusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActusApp.swift; sourceTree = "<group>"; };
+		81CBA158B00EE1DDC85DE974 /* CategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPicker.swift; sourceTree = "<group>"; };
+		8AEDC396959FC82020E06690 /* Actus.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Actus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDE2A31326D6B78A4E0E4F8 /* FeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedService.swift; sourceTree = "<group>"; };
+		8DAC70B68C2E8EC3E4DE0A4A /* SourceTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTag.swift; sourceTree = "<group>"; };
+		96BFAB9797542BECD914E50E /* Summarizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summarizer.swift; sourceTree = "<group>"; };
+		9A71DFB3BDB3C658A083507E /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
+		A1D7252F416BE9B85446A290 /* FeedParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
+		AA7CFFAF7CB5384C2CE25252 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		C2C07DD8D540D89E7DB8E412 /* ArticleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebView.swift; sourceTree = "<group>"; };
+		C6EAE79983EAC5DF769C6EF2 /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
+		CC91BB5141CBFA8353B54724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DD1144919517608B35272A /* AddSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSourceView.swift; sourceTree = "<group>"; };
+		DD3F922C68BB3BB3BA12EFF1 /* FeedSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSource.swift; sourceTree = "<group>"; };
+		F29DAF13A70C826244A3394D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1CD68C40F51D53C1C9C30381 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				2A8A8CD4DE8898D957BEBA40 /* NewsStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		20477A2D1676054BAAE2BE6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEDC396959FC82020E06690 /* Actus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C28933A828C5E7267F198A0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1D7252F416BE9B85446A290 /* FeedParser.swift */,
+				8BDE2A31326D6B78A4E0E4F8 /* FeedService.swift */,
+				9A71DFB3BDB3C658A083507E /* String+HTML.swift */,
+				96BFAB9797542BECD914E50E /* Summarizer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		65ED60D3EEAA9F7131AB17ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3DD1144919517608B35272A /* AddSourceView.swift */,
+				AA7CFFAF7CB5384C2CE25252 /* ArticleDetailView.swift */,
+				09D61105292D89028F4251BA /* ArticleHeroCard.swift */,
+				5C5A179930CFA8A60BA98E66 /* ArticleListView.swift */,
+				C6EAE79983EAC5DF769C6EF2 /* ArticleRow.swift */,
+				C2C07DD8D540D89E7DB8E412 /* ArticleWebView.swift */,
+				81CBA158B00EE1DDC85DE974 /* CategoryPicker.swift */,
+				F29DAF13A70C826244A3394D /* ContentView.swift */,
+				40D036DC29543480802F1919 /* DigestView.swift */,
+				25B4BF482A21F1A257B27911 /* DofusShortcutRow.swift */,
+				2807D1DD7723D51185DA803C /* SettingsView.swift */,
+				8DAC70B68C2E8EC3E4DE0A4A /* SourceTag.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DD28488C42ACF1E439A6686 = {
+			isa = PBXGroup;
+			children = (
+				91734818CA41F6EBFC0B5E83 /* Actus */,
+				20477A2D1676054BAAE2BE6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91734818CA41F6EBFC0B5E83 /* Actus */ = {
+			isa = PBXGroup;
+			children = (
+				7F5E3E6A18D9183BBEF61244 /* ActusApp.swift */,
+				CC91BB5141CBFA8353B54724 /* Assets.xcassets */,
+				D98F0C55D9A53D71206B6116 /* Models */,
+				3C28933A828C5E7267F198A0 /* Services */,
+				1CD68C40F51D53C1C9C30381 /* Store */,
+				65ED60D3EEAA9F7131AB17ED /* Views */,
+			);
+			path = Actus;
+			sourceTree = "<group>";
+		};
+		D98F0C55D9A53D71206B6116 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1539C18D1CD7A87DC8357A9D /* Article.swift */,
+				DD3F922C68BB3BB3BA12EFF1 /* FeedSource.swift */,
+				075099D1D16E0C22BFB03ECD /* NewsCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D535ACE6482ED3B71A517220 /* Actus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1633593D4DB1D6CF0E8F84 /* Build configuration list for PBXNativeTarget "Actus" */;
+			buildPhases = (
+				EE1C691B76B7D4B14D3A4EA9 /* Sources */,
+				4FFF4C9E65F5A93AA8D1FF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Actus;
+			packageProductDependencies = (
+			);
+			productName = Actus;
+			productReference = 8AEDC396959FC82020E06690 /* Actus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9B2FF2780F19103627A56B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D535ACE6482ED3B71A517220 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F81A75C1959C833A666DD9E1 /* Build configuration list for PBXProject "Actus" */;
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				fr,
+			);
+			mainGroup = 7DD28488C42ACF1E439A6686;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 20477A2D1676054BAAE2BE6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D535ACE6482ED3B71A517220 /* Actus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFF4C9E65F5A93AA8D1FF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E69C9C39EEFA584AC3C1CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1C691B76B7D4B14D3A4EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0143782A2B9630E2478427 /* ActusApp.swift in Sources */,
+				BF724F87286AA4EC1F119459 /* AddSourceView.swift in Sources */,
+				D5384E7354ECCBF0DFDD5B08 /* Article.swift in Sources */,
+				75BFD5B1B2CFED6ABBEF0E61 /* ArticleDetailView.swift in Sources */,
+				1F32D8FFE19893A6FF2D3D08 /* ArticleHeroCard.swift in Sources */,
+				05D022DC58D8D0E67C97BB29 /* ArticleListView.swift in Sources */,
+				CD465750EB25C860277F30D1 /* ArticleRow.swift in Sources */,
+				42C84F57843F06EB82297894 /* ArticleWebView.swift in Sources */,
+				4ABCB08DA8833382390DBDB8 /* CategoryPicker.swift in Sources */,
+				8C3E484074B7012292617477 /* ContentView.swift in Sources */,
+				6619B69B43660C4F93BD94F5 /* DigestView.swift in Sources */,
+				3EABD2714971FD99D9401C09 /* DofusShortcutRow.swift in Sources */,
+				D5CDE8C622EF5E15F081D536 /* FeedParser.swift in Sources */,
+				61E0EC501F7C246275306B9A /* FeedService.swift in Sources */,
+				2D68A0321F0F1166637C081B /* FeedSource.swift in Sources */,
+				837E9B8A298227A716A56120 /* NewsCategory.swift in Sources */,
+				C1D6457869C4FE01011F6981 /* NewsStore.swift in Sources */,
+				2C5F50D7874DEE78D2ACD80D /* SettingsView.swift in Sources */,
+				E33E751F8F1EE50975679301 /* SourceTag.swift in Sources */,
+				28E50D78903E4E628E54BEDF /* String+HTML.swift in Sources */,
+				7914189762B1582B5ED05DEA /* Summarizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EA19E738996D2C96EBE0B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		749B454BB1C2373555934459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Actus;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreachacademy.actus;
+				PRODUCT_NAME = Actus;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D1F844AE90BB63BA5826510F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		FE250844AF666FD9F0DB2774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Actus;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foreachacademy.actus;
+				PRODUCT_NAME = Actus;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1633593D4DB1D6CF0E8F84 /* Build configuration list for PBXNativeTarget "Actus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE250844AF666FD9F0DB2774 /* Debug */,
+				749B454BB1C2373555934459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F81A75C1959C833A666DD9E1 /* Build configuration list for PBXProject "Actus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F844AE90BB63BA5826510F /* Debug */,
+				4EA19E738996D2C96EBE0B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9B2FF2780F19103627A56B /* Project object */;
+}
